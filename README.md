@@ -39,7 +39,7 @@ In phase 2 we extracted 23 features which include special characters, and some l
 
 Table 6. Phase 2 results for Dataset 1 
 
-
+![Proposed approach](images/Table6.png)
 
 
 
@@ -48,7 +48,7 @@ Accuracies obtained for Dataset 2 are as shown in table 7.
 
 Table 7. Phase 2 results for Dataset 2
 
-
+![Proposed approach](images/Table7.png)
 
 
 The accuracies we obtained here are high because the features we extracted are fewer and also the dataset size is small.
@@ -57,12 +57,10 @@ In phase 3 we implemented the CNN approach similar to the CNN model built by Wei
 
 Table 8. Phase 3 results
 
+![Proposed approach](images/Table8.png)
 
 
-
-
-     In Phase 4 
-We implemented the algorithms on the datasets D1, D2, and D3 in 3 ways. 
+In Phase 4, We implemented the algorithms on the datasets D1, D2, and D3 in 3 ways. 
 – W1- Only on character frequency-based features
  – W2- Only on lexical features 
 – W3- The combination of both character frequency and lexical features 
@@ -72,8 +70,10 @@ The results obtained for way W1 are as follows:
 
 Way W1 for Dataset D1
 
-
 Table 9. W1: Results for D1 
+
+![Proposed approach](images/Table9.png)
+
 
 We can see that Random forest performed well compared to SVM, and KNN algorithms with 92.517%. 
 
@@ -82,11 +82,17 @@ Way W1 for Dataset D2
 
 Table 10. W1: Results for D2
 
+![Proposed approach](images/Table10.png)
+
+
 
 Way W1 For Dataset D3
 
 
 Table 11. W1: Results for D3
+
+![Proposed approach](images/Table11.png)
+
 
 The accuracies obtained were best for Dataset D1 with Random forest and SVM(rbf).
 
@@ -96,12 +102,22 @@ Way W2 for Dataset D1
 				          
 Table 12. W2: Results for D1
 
+![Proposed approach](images/Table12.png)
+
+
 Way W2 for Dataset D2
 
 Table 13. W2: Results for D2
+
+![Proposed approach](images/Table13.png)
+
+
 Way W2 for Dataset D3
 
 Table 14. W2: Results for D3
+
+![Proposed approach](images/Table14.png)
+
 
 It can be observed that for Way W2, the best accuracy is for same as the algorithm i.e. Random forest. So, we can also expect the same trend for Way W3 too because W3 is the combination of W1 and W2.
 
@@ -110,7 +126,19 @@ Way W3 for Dataset D1
 The highest accuracy for Dataset D1 with way W3 is obtained using Random Forest.
 Table 15. W3: Results for D1
 
+![Proposed approach](images/Table15.png)
+
+
 Similarly, for the same dataset D1 with Way W3, we obtained similar accuracy as we used deep learning approaches.
+
+![Proposed approach](images/accuracy.png)
+
+
+## Conclusion and Future Work
+From the experimental results, we can observe that the W3 approach with Random forest gave a good accuracy which is 94.485%. And Dataset D1 gave the highest accuracy among all.
+
+For future work, we are working on features like Bi-grams and Trigrams in which the URL is divided into a set of two characters and taken as a feature. And we can also try to use transfer learning to explore this field. 
+
 
 
 
