@@ -25,9 +25,9 @@ In Phase 4, we developed a model for detecting malicious urls using different ML
 ## Data Preprocessing 
 The URLs in the dataset are preprocessed in two ways as shown below. 
 
-** Character Frequency ** count We took a URL and a dictionary of 58 characters which include 26 alphabets, 10 numbers(0-9), and special symbols like @,#,!..etc. And for each URL we counted the number of appearances of each character in that URL. Then normalized the counts of characters using feature scaling also known as Min-Max normalization.
+**Character Frequency** count We took a URL and a dictionary of 58 characters which include 26 alphabets, 10 numbers(0-9), and special symbols like @,#,!..etc. And for each URL we counted the number of appearances of each character in that URL. Then normalized the counts of characters using feature scaling also known as Min-Max normalization.
 
-** Lexical features ** The lexical features include hostname-based and full URLbased features like digit count in the hostname, base URL length, etc.
+**Lexical features** The lexical features include hostname-based and full URLbased features like digit count in the hostname, base URL length, etc.
 
 The extracted features are then normalized and given to machine-learning algorithms like Random forest, SVM, etc., and deep-learning algorithms like CNN, LSTM, and Bi-LSTM. The proposed method is as shown in the below figure
 
