@@ -29,6 +29,6 @@ The URLs in the dataset are preprocessed in two ways as shown below.
 
 **Lexical features** The lexical features include hostname-based and full URLbased features like digit count in the hostname, base URL length, etc.
 
-The extracted features are then normalized and given to machine-learning algorithms like Random forest, SVM, etc., and deep-learning algorithms like CNN, LSTM, and Bi-LSTM. The proposed method is as shown in the below figure
+The extracted features are then normalized and given to machine-learning algorithms like Random forest, SVM, etc., and deep-learning algorithms like CNN, LSTM, and Bi-LSTM. The proposed method is as shown in the below figure.
 
 ![Proposed approach](images/proposedsystem.png)
