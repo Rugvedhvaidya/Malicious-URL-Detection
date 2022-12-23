@@ -1,4 +1,4 @@
-# Malcious-URL-detection
+# Malicious-URL-detection
 
 All the codes and datasets of each phase implementation are available in their respective folders. 
 All of the code files are in .ipynb file format. 
@@ -22,3 +22,11 @@ In Phase 3, we implemented a CNN model with one hot character level encoding. He
 In Phase 4, we developed a model for detecting malicious urls using different ML and DL algorithms. For building a model we used more number of features here. Regarding Datasets, we used 3 different datasets here. In Data Pre-processing, we extracted character count of each character in URL and Host, Domain and Full URL Based Features of an URL. So, total number of features extracted here is 93 and one class variable. In this phase, we implemented multiple ML and DL models such as CNN, CNNwithLSTM and CNNwithBiLSTM. All of the above mentioned datasets and Code are present in Phase_4 folder.
 
 
+## Data Preprocessing 
+The URLs in the dataset are preprocessed in two ways as shown below. 
+
+Character Frequency count We took a URL and a dictionary of 58 characters which include 26 alphabets, 10 numbers(0-9), and special symbols like @,#,!..etc. And for each URL we counted the number of appearances of each character in that URL. Then normalized the counts of characters using feature scaling also known as Min-Max normalization.
+
+Lexical features The lexical features include hostname-based and full URLbased features like digit count in the hostname, base URL length, etc.
+
+The extracted features are then normalized and given to machine-learning algorithms like Random forest, SVM, etc., and deep-learning algorithms like CNN, LSTM, and Bi-LSTM. The proposed method is as 
